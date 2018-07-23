@@ -1,6 +1,6 @@
-## IT Dept Library
+## Dept Library App 
 
-IT Department Library App for SSNCE
+   Built using Frappe
 
 #### License
 
