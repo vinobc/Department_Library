@@ -2,15 +2,15 @@
 // rename this file from _test_[name] to test_[name] to activate
 // and remove above this line
 
-QUnit.test("test: IT Library Subscriber", function (assert) {
+QUnit.test("test: IT Dept Library Transaction", function (assert) {
 	let done = assert.async();
 
 	// number of asserts
 	assert.expect(1);
 
 	frappe.run_serially([
-		// insert a new IT Library Subscriber
-		() => frappe.tests.make('IT Library Subscriber', [
+		// insert a new IT Dept Library Transaction
+		() => frappe.tests.make('IT Dept Library Transaction', [
 			// values to be set
 			{key: 'value'}
 		]),

@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 import unittest
 
-class TestITBook(unittest.TestCase):
+class TestITDeptLibraryTransaction(unittest.TestCase):
 	pass
